@@ -1,0 +1,190 @@
+/* General Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f3f5;
+    color: #222;
+    text-align: center;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #073db8;
+    color: white;
+    margin: 18px 3% 0;
+    padding: 12px;
+
+    /* Sticky Position */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar h1 {
+    margin: 0 0 5px;
+    font-size: 24px;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+.navbar nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+
+.section {
+    padding: 22px 4%;
+
+    /* Relative Position */
+    position: relative;
+}
+
+.section h2 {
+    font-size: 18px;
+    margin: 0 0 18px;
+}
+
+/* Profile Image */
+
+.profile-image {
+    display: block;
+    width: 210px;
+    height: 210px;
+    object-fit: contain;
+    background-color: #dce6f5;
+    border-radius: 50%;
+    margin: 0 auto 12px;
+
+    /* Relative Position */
+    position: relative;
+    top: 2px;
+}
+
+.intro {
+    max-width: 650px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+/* Horizontal Line */
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 8px 2%;
+}
+
+/* Skills Table */
+
+.skills-table,
+.contact-form table {
+    width: min(420px, 90%);
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+}
+
+.skills-table th,
+.skills-table td,
+.contact-form td {
+    border: 1px solid #64748b;
+    padding: 7px;
+}
+
+.skills-table th {
+    background-color: #073db8;
+    color: white;
+}
+
+/* Project Cards */
+
+.project-card {
+    width: min(420px, 90%);
+    margin: 10px auto;
+    padding: 18px;
+    background-color: white;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 5px #0000000b;
+
+    /* Relative Position */
+    position: relative;
+}
+
+.project-card h3 {
+    margin: 0 0 8px;
+    font-size: 14px;
+}
+
+.project-card p {
+    margin: 0;
+    font-size: 12px;
+}
+
+/* Contact Form */
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #aaa;
+    font: inherit;
+}
+
+.contact-form textarea {
+    min-height: 42px;
+    resize: vertical;
+}
+
+.submit-cell {
+    text-align: center;
+}
+
+/* Send Button */
+
+.contact-form button {
+    background-color: #073db8;
+    color: white;
+    border: 0;
+    padding: 9px 22px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+/* Footer */
+
+.footer {
+    border-top: 4px solid #073db8;
+    margin: 0 3%;
+    padding: 12px;
+    font-size: 12px;
+}
+
+/* Back to Top Button */
+
+.back-to-top {
+    background-color: #073db8;
+    color: white;
+    padding: 9px 22px;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 12px;
+
+    /* Fixed Position */
+    position: fixed;
+    right: 4%;
+    bottom: 18px;
+}
+ 
